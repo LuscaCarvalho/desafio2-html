@@ -1,0 +1,156 @@
+html,
+body {
+  margin: 0;
+}
+body {
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+  width: 1200px;
+  display: flex;
+  margin: 0 auto;
+  background-color: aquamarine;
+}
+.main {
+  display: flex;
+  flex-flow: column;
+  width: 85%;
+}
+.menu {
+  width: 15%;
+  background-image: radial-gradient(
+    circle at 34.68% 76.54%,
+    #ac64ff 0,
+    #7e54f8 25%,
+    #4d42d4 50%,
+    #0331b0 75%,
+    #00218e 100%
+  );
+  padding: 10px 20px 0px;
+}
+.header {
+  background-image: radial-gradient(
+    circle at 34.68% 76.54%,
+    #ac64ff 0,
+    #7e54f8 25%,
+    #4d42d4 50%,
+    #0331b0 75%,
+    #00218e 100%
+  );
+  min-height: 150px;
+}
+.content {
+  background-color: white;
+  min-height: 300px;
+  padding: 20px;
+}
+.footer {
+  background-image: radial-gradient(
+    circle at 34.68% 76.54%,
+    #ac64ff 0,
+    #7e54f8 25%,
+    #4d42d4 50%,
+    #0331b0 75%,
+    #00218e 100%
+  );
+  min-height: 150px;
+  text-align: center;
+  padding-top: 70px;
+}
+
+#logo {
+  text-align: center;
+}
+
+#rodape {
+  background-color: antiquewhite;
+  font-weight: bold;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+a {
+  text-decoration: none;
+  box-shadow: 11px 12px 9px 0px rgba(0, 0, 0, 0.81);
+  -webkit-box-shadow: 11px 12px 9px 0px rgba(0, 0, 0, 0.81);
+  -moz-box-shadow: 11px 12px 9px 0px rgba(0, 0, 0, 0.81);
+  background-color: #0331b0;
+}
+
+a:link {
+  color: gray;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: black;
+  background: whitesmoke;
+}
+
+a:active {
+  color: #f1f1f1;
+}
+
+li {
+  list-style-type: none;
+  padding: 10px;
+}
+
+table {
+  border: solid 2px grey;
+  border-radius: 5px;
+  padding: 2px;
+  box-shadow: 11px 12px 9px 0px rgba(0, 0, 0, 0.81);
+  -webkit-box-shadow: 11px 12px 9px 0px rgba(0, 0, 0, 0.81);
+  -moz-box-shadow: 11px 12px 9px 0px rgba(0, 0, 0, 0.81);
+}
+
+th {
+  border: solid black 1px;
+  background-color: black;
+  color: #f1f1f1;
+  border-radius: 2px;
+}
+
+td {
+  border: solid black 1px;
+  border-radius: 2px;
+  text-align: center;
+}
+
+td:hover {
+  background-color: bisque;
+  cursor: pointer;
+}
+
+#form1 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+#form2 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+label,
+input,
+textarea {
+  display: block;
+  margin-bottom: 10px;
+}
+
+legend {
+  font-weight: bold;
+}
